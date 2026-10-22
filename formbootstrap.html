@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <header class ="p-4 bg-dark text-white">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-end ">
+                <h1>Hello Everyone!  let start with Bootstrap.</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3 d-flex justify-content-end">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-decoration-none text-white"href="bootstrapeg.html">HOME</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">tier2</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Tier3</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="contactform.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <form action="" method="get">
+    <div class="card  m-3 p-3">
+        <div class="form-group">
+            <label for="name" class="form-label p-2">Name </label>
+            <input type="text" id="name" name="name" class="form-control p-2 form-control-lg" >
+            <!-- lg means big in input area and sm- means small -->
+        </div>
+        <div class="form-group">
+            <label for="phone" class="form-label p-2">phone </label>
+            <input type="tel" id="phone" name="phone" maxlength="10" class="form-control p-2 form-control-sm" >
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label p-2">Email </label>
+            <input id="email" name="email" class="form-control p-2" >
+        </div>
+        <div class="form-group">
+            <label for="reason" class="form-label p-2">Reason</label>
+            <select class="form-select form-select-lg">
+                <option selected>Choose one</option>
+                <option> queries on website</option>
+                <option>queries on topic</option>
+                <option>queries on user</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary m-5">Submit </button>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap setting up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>-->
+    <header class ="p-4 bg-dark text-white">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-end ">
+                <h1>Hello Everyone!  let start with Bootstrap.</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-3 d-flex justify-content-end">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-decoration-none text-white"href="#">HOME</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">tier2</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Tier3</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="formbootstrap.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="topic bg-info">
+        <div class="container ">
+            <h2>Container</h2>
+            <p>here the size varies on particular point based on the shrink or zoom of webpage</p>
+        </div>
+        <div class="container-fluid">
+            <h2>Contianer-fluid</h2>
+            <p> here the size does not varies at point screen size</p>
+        </div>
+    </section>
+    <section class="topic">
+        <h2> Typography</h2>
+        <p> You can use class="h1" to "h6" to display as heading and class="display-1"to "display-6" to display in larger size but not in bold as h1 tags</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 bg-light">
+                    <p class="h1">hello </p>
+                    <p class="h2">hello </p>
+                    <p class="h3">hello </p>
+                    <p class="h4">hello </p>
+                    <p class="h5">hello </p>
+                    <p class="h6">hello </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 bg-secondary">
+                    <p class="display-1">world</p>
+                    <p class="display-2">world</p>
+                    <p class="display-3">world</p>
+                    <p class="display-4">world</p>
+                    <p class="display-5">world</p>
+                    <p class="display-6">world</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="topic">
+        <h3> textcolour =text-_____ and bg colour =bg-_____</h3>
+        <p class="text-muted">text-muted is grey</p>
+        <p class="text-primary">text-primary is blue </p>
+        <p class="text-success">text-success is green</p>
+        <p class="text-alert bg-success">text-alert is yellow</p>
+        <p class="text-danger">text-danger is red</p>
+        <p class="text-white bg-dark">text-white bg-dark is white </p>
+        <p class="text-light bg-dark">text-light bg-dark is lightwhite</p>
+        <p class="text-dark">text-dark is black</p>
+        <p class="text-secondary bg-danger">text-secondary is greyish</p>
+    </section>
+    <section class="topic">
+        <h3> grid system to split rows and cloumns</h3>
+        <div class="container">
+            <div class="row bg-success">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p> hi ow are you1</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p> hi ow are you2</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">3
+                    <p> hi ow are you3</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p> hi ow are you4</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p> hi ow are you5</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+            </div>
+            <div class="row bg-info">
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card rounded">
+                        <img  class="rounded" src="black-night.jpg"width="auto" height="auto" >
+                        <div class="card-body">
+                            <p> hi ow are you1</p>
+                            <p> this bootstrap grid elements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card rounded">
+                        <img class="rounded" src="black-night.jpg"width="auto" height="auto" >
+                        <div class="card-body">
+                            <p> hi ow are you2</p>
+                            <p> this bootstrap grid elements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card rounded">
+                        <img class="rounded" src="black-night.jpg " width="auto" height="auto" >
+                        <div class="card-body">
+                            <p> hi ow are you3</p>
+                            <p> this bootstrap grid elements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-warning">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <p> hi ow are you1</p>
+                    <p> this bootstrap grid elements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="topic">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h3> padding </h3>
+                <p class="p-4"> padding can beused using p-1 to 5. this allow space in all four sides</p>
+                <p class ="px-6"> px-4 padding is allowed onl in left and right (x axis) the py means for y axis </p>
+                <p class ="ps-4"> ps-4 for start only left side pe-4 for right side only.pt-4 top and pb- bottom. </p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h3> margin </h3>
+                <p class="m-4"> margin is used to give the space outside the element.</p>
+                <p class="mb-6">ms-4 for start only left side me-4 for right side only.mt-4 top and mb- bottom.</p>
+                <p class="ms-4"> hello </p>
+                <p class="me-4"> hello </p>
+                <p class="mt-4"> hello </p>
+                <p class="mb-4"> hello </p>
+                <p class="mx-4"> hello </p>
+                <p class="my-4"> hello </p>
+
+            </div>
+        </div>
+    </section>
+    <section  id="topic">
+        <h3> Responsive design 
+        </h3>
+        <p> view port for each devices like mobile view landscape and potrait, tab, desktop.
+        </p>
+        <pre>
+            col-12 for potrait mobile phone.
+            col sm-8 for Landscape 
+            col md-4 for tablets(medium devices)
+            col lg-2 for monitors.
+        </pre>
+        <h3> alignment </h3>
+        <p> d-flex = this must be called in the class to use flexbox usage.</p>
+        <p> justify-align-center,right,left</p>
+        <h3>image attachment </h3>
+        <p> if image is added it automatically adust in normal view but whn the screen size differes it overlaps. hence <pre> img-fluid rounded</pre> is used to prevent over lapping in div section auto adjest based on size.
+    </p>
+</section>
+<footer>
+    <div class="p-4 bg-dark text-white">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <p> This my creation. </p>
+            </div>
+            <div class ="col-12 col-sm-6 col-lg-4">
+                <p> Thankyou</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
