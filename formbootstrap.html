@@ -15,7 +15,7 @@
             <div class="col-12 col-sm-6 col-lg-4 mt-3 d-flex justify-content-end">
                 <ul class="list-inline">
                     <li class="list-inline-item"><a class="text-decoration-none text-white"href="index.html">HOME</a></li>
-                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">tier2</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none text-white" href="tier2.html">tier2</a></li>
                     <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Tier3</a></li>
                     <li class="list-inline-item"><a class="text-decoration-none text-white" href="contactform.html">Contact</a></li>
                 </ul>
@@ -23,31 +23,31 @@
         </div>
     </header>
     <form action="" method="get">
-    <div class="card  m-3 p-3">
-        <div class="form-group">
-            <label for="name" class="form-label p-2">Name </label>
-            <input type="text" id="name" name="name" class="form-control p-2 form-control-lg" >
-            <!-- lg means big in input area and sm- means small -->
+        <div class="card  m-3 p-3">
+            <div class="form-group">
+                <label for="name" class="form-label p-2">Name </label>
+                <input type="text" id="name" name="name" class="form-control p-2 form-control-lg" >
+                <!-- lg means big in input area and sm- means small -->
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label p-2">phone </label>
+                <input type="tel" id="phone" name="phone" maxlength="10" class="form-control p-2 form-control-sm" >
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label p-2">Email </label>
+                <input id="email" name="email" class="form-control p-2" >
+            </div>
+            <div class="form-group">
+                <label for="reason" class="form-label p-2">Reason</label>
+                <select class="form-select form-select-lg">
+                    <option selected>Choose one</option>
+                    <option> queries on website</option>
+                    <option>queries on topic</option>
+                    <option>queries on user</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary m-5">Submit </button>
         </div>
-        <div class="form-group">
-            <label for="phone" class="form-label p-2">phone </label>
-            <input type="tel" id="phone" name="phone" maxlength="10" class="form-control p-2 form-control-sm" >
-        </div>
-        <div class="form-group">
-            <label for="email" class="form-label p-2">Email </label>
-            <input id="email" name="email" class="form-control p-2" >
-        </div>
-        <div class="form-group">
-            <label for="reason" class="form-label p-2">Reason</label>
-            <select class="form-select form-select-lg">
-                <option selected>Choose one</option>
-                <option> queries on website</option>
-                <option>queries on topic</option>
-                <option>queries on user</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary m-5">Submit </button>
-    </div>
-</form>
+    </form>
 </body>
 </html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+  <header class ="p-4 bg-dark text-white">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-end ">
+        <h1>Hello Everyone!  let start with Bootstrap.</h1>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mt-3 d-flex justify-content-end">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="text-decoration-none text-white"href="index.html">HOME</a></li>
+          <li class="list-inline-item"><a class="text-decoration-none text-white" href="tier2.html">tier2</a></li>
+          <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Tier3</a></li>
+          <li class="list-inline-item"><a class="text-decoration-none text-white" href="formbootstrap.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <h3> alignment </h3>
+  <p> d-flex = this must be called in the class to use flexbox usage. 
+  </p>
+  <p> justify-align-center,right,left. 
+  </p>
+  <p>justify-content-center,start,end,inbetween these are used for columns. 
+  </p>
+  <h3>image attachment </h3>
+  <p> if image is added it automatically adust in normal view but whn the screen size differes it overlaps. hence 
+    <pre> img-fluid rounded</pre> is used to prevent over lapping in div section auto adjest based on size.
+    <p> offset- is used to leaves spaces as mentioned number and column start based on responsive layout.
+    </p>
+    <p>Use g-*, gx-*, and gy-* for spacing(.Use offset-* to move a column right.Use order-* to change visual order
+      <div class="row">
+        <div class="col-md-6 offset-md-3 bg-success p-3">
+          Centered column
+        </div>
+      </div>
+      <div class="row">
+        <div class="col order-1">Appears 1</div>
+        <div class="col order-5">Appears 2</div>
+        <div class="col order-3">Appears 5</div>
+        <div class="col order-2">Appears 4</div>
+        <div class="col order-4">Appears 3</div>
+      </div>
+
+      <p class="text-wrap">
+        This long text will wrap normally inside its container.
+      </p>
+
+      <p class="text-nowrap">
+        This text will not wrap and may overflow.
+      </p>
+
+      <p class="text-break">
+        Thisisaverylongwordwithoutspacesanditwillbreakproperly.
+      </p>
+
+      <p class="text-truncate" style="max-width: 200px;">
+        This long text will be cut off with three dots.
+      </p>
+      <p> <pre>gap-3 or gap-5 </pre> can be used only in a row and it must used as flexbox <pre> d-flex</pre>
+    </p>
+    <div class="container">
+      <div class="m-2 d-flex gap-5">
+        <button class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary">Cancel</button>
+      </div>
+      <div class="btn-group gap-5 m-2">
+        <button class="btn btn-primary rounded">Save</button>
+        <button class="btn btn-secondary rounded">Cancel</button>
+      </div>
+    </div>
+  </p>
+</p>
+<hr>
+<section class="taa">
+  <div class="container">
+    <h2> Table classes that are used </h2>
+    <p> table-striped = add alternate color for rows in a table.<br>
+      table-bordered= border,table-hover,
+    table-responsive+ enable scrolling when horizontal view is ennabled</p>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered table-hover ">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th> age </th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> Ram</td>
+            <td> 23 </td>
+            <td> 27000</td>
+          </tr>
+          <tr>
+            <td> Ravi</td>
+            <td> 24</td>
+            <td> 28000</td>
+          </tr>
+          <tr>
+            <td> Raj</td>
+            <td> 23 </td>
+            <td> 26000</td>
+          </tr>
+          <tr>
+            <td> Rajan</td>
+            <td> 26 </td>
+            <td> 25000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div></section>
+
+  <section class="cardconcepts">
+    <div class="container border border-info ">
+      <h3 class="container-title text-center">Identity of a Human </h3>
+      <a class="text-decoration-none text-dark" href="https://uidai.gov.in/" target="_blank">
+        <div class="row row-col-1 row-col-sm-2 row-col-lg-4">
+          <div class="col">
+            <div class="card card-responsive card-hover m-3">
+              <div class="card-header text-center bg-warning">
+                aadhar
+                <h3 class="class-title">Aadhar Card</h3>
+              </div>
+              <div class="card-body">
+                <img src=black-night.jpg height=200 width=300 rounded></div>
+                <div class="card-footer">
+                  <p class="card-text"> Unique identity for evey indian citizen </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="col">
+            <a class="text-decoration-none text-dark" href="https://www.incometaxindia.gov.in/tax-services/apply-for-pan" target="_blank">
+              <div class="card card-responsive card-hover m-3">
+                <div class="card-body">
+                  <h3 class="class-title">Pan Card</h3>
+                  <p class="card-text"> Unique identity for evey indian citizen </p>
+                  <img src=black-night.jpg height=200 width=300 rounded class="card-img-bottom">
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-dark" href="https://voters.eci.gov.in/" target="_blank">
+              <div class="card card-responsive card-hover m-3 card-link ">
+                <div class="card-body">
+                  <h3 class="class-title">VoterId Card</h3>
+                  <p class="card-text"> Unique identity for evey indian citizen</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a class="text-decoration-none text-dark" href="https://parivahan.gov.in/" target="_blank">
+              <div class="card card-responsive card-hover m-3">
+                <div class="card-body">
+                  <h3 class="class-title">Driving License</h3>
+                  <p class="card-text card-hover"> Unique identity for evey indian citizen</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="p-4 bg-dark text-white">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <p> This my creation. </p>
+            </div>
+            <div class ="col-12 col-sm-6 col-lg-4">
+              <p> Thankyou</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+    </html>
